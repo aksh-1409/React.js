@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const ol = document.createElement('ol');
+
+        const li1 = document.createElement('li');
+        const li2 = document.createElement('li');
+        const li3 = document.createElement('li');
+
+        li1.innerText = 'Jabalpur';
+        li2.innerText = 'Bhopal';
+        li3.innerText = 'Indore';
+
+        ol.append(li1);
+        ol.append(li2);
+        ol.append(li3);
+
+        const body = document.querySelector('body');
+
+        body.append(ol);
+    </script>
+</body>
+</html>
